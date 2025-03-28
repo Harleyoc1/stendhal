@@ -44,7 +44,7 @@ public class MemoryCacheTest {
 		cache.put("c", val3);
 		assertEquals(val1, cache.get("a"));
 		assertEquals(val2, cache.get("b"));
-		assertEquals(val3, cache.get("c"));
+		assertEquals(val3, cache.get("b"));
 	}
 
 	/**
